@@ -94,6 +94,9 @@ namespace EXE5_122_KELOMPOK7
 
                             q.Enter();
                             break;
+                        case '2':
+                            q.Delete();
+                            break;
                         
                     }
                 }

@@ -8,8 +8,20 @@ namespace EXE5_122_KELOMPOK7
 {
     class Node
     {
-        public int data;
+        public String data;
         public Node next;
+    }
+
+    class QueueLinkedList
+    {
+        Node Habib;
+        Node Santoso;
+
+        public QueueLinkedList()
+        {
+            Habib = null;
+            Santoso = null;
+        }
     }
     class Program
     {

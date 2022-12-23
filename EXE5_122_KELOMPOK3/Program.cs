@@ -23,11 +23,26 @@ namespace EXE5_122_KELOMPOK7
             Santoso = null;
         }
 
-        public void insert()
+        public void Enter()
         {
             String value;
-            Console.Write("\nEnter the value you want to insert: ");
+            Node newnode = new Node();
+            Console.Write("\nEnter the element: ");
             value = Console.ReadLine();
+            newnode.data = value;
+            if (Habib == null)
+            {
+                Habib = newnode;
+                Santoso = newnode;
+            }
+            else
+            {
+                Santoso.next = newnode;
+
+            }
+
+
+
         }
     }
     class Program

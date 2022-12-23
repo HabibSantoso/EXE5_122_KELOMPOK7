@@ -49,13 +49,25 @@ namespace EXE5_122_KELOMPOK7
         {
             if (Habib == null)
             {
-                Console.WriteLine();
+                Console.WriteLine("Queue is empty");
                 return;
             }
             Habib = Habib.next;
         }
 
-
+        public void Display()
+        {
+            if (Habib == null)
+            {
+                Console.WriteLine("Queue is empty");
+                return;
+            }
+            Node Display;
+            for(Display = Habib; Display != null; Display = Display.next)
+            {
+                Console.WriteLine(Display.data);
+            }
+        }
     }
     class Program
     {

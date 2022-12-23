@@ -22,6 +22,13 @@ namespace EXE5_122_KELOMPOK7
             Habib = null;
             Santoso = null;
         }
+
+        public void insert()
+        {
+            String value;
+            Console.Write("\nEnter the value you want to insert: ");
+            value = Console.ReadLine();
+        }
     }
     class Program
     {

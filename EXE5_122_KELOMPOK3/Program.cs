@@ -73,6 +73,27 @@ namespace EXE5_122_KELOMPOK7
     {
         static void Main(string[] args)
         {
+            QueueLinkedList q = new QueueLinkedList();
+            char ch;
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("\n***Menu***\n");
+                    Console.WriteLine("1. Implement insert opration");
+                    Console.WriteLine("2. Implement delete opration");
+                    Console.WriteLine("3. Display values");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("\nEnter your choice: ");
+                    
+                }
+                catch
+                {
+                    Console.WriteLine("Check for the values entered");
+                }
+
+            }
         }
     }
 }

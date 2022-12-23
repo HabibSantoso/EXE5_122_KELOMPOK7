@@ -86,7 +86,16 @@ namespace EXE5_122_KELOMPOK7
                     Console.WriteLine("3. Display values");
                     Console.WriteLine("4. Exit");
                     Console.Write("\nEnter your choice: ");
-                    
+                    String sInput = Console.ReadLine();
+                    ch = Convert.ToChar(sInput == "" ? "0" : sInput);
+                    switch (ch)
+                    {
+                        case '1':
+
+                            q.Enter();
+                            break;
+                        
+                    }
                 }
                 catch
                 {

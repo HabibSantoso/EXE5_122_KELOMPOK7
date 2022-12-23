@@ -38,12 +38,24 @@ namespace EXE5_122_KELOMPOK7
             else
             {
                 Santoso.next = newnode;
+                Santoso = newnode;
 
             }
 
-
+            
 
         }
+         public void Delete()
+        {
+            if (Habib == null)
+            {
+                Console.WriteLine();
+                return;
+            }
+            Habib = Habib.next;
+        }
+
+
     }
     class Program
     {

@@ -97,7 +97,14 @@ namespace EXE5_122_KELOMPOK7
                         case '2':
                             q.Delete();
                             break;
-                        
+                        case '3':
+                            q.Display();
+                            break;
+                        case '4':
+                            return;
+                        default:
+                            Console.WriteLine("\nInvalid choice");
+                            break;
                     }
                 }
                 catch
